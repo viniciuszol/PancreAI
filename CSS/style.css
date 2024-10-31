@@ -1,0 +1,43 @@
+:root{
+    --darkRed: #360606;
+    --lightRed:#FFe6e6;
+    --redLetter:#d61c1c;
+    --blueSky:#d4edf5;
+    --BlueF:#709caa;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color:var(--lightRed) ;
+}
+
+.navBar{
+    width: 100%;
+    height: 12vh;
+    background-color:var(--darkRed);
+    position:fixed;
+    display: flex;
+    align-items: center;
+}
+
+.icon, .iconIMG{
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.iconP{
+    display: flex;
+    font-size: 20px;
+    align-items:center;
+    margin: 0 5px;
+    justify-content: center;
+    color: var(--blueSky);
+}
+.iconIMG{
+    width: 60px;
+}
+
+.banner{
+    
+}
