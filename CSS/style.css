@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
 :root{
     --darkRed: #360606;
     --lightRed:#FFe6e6;
@@ -23,7 +26,14 @@ body{
 
 .icon, .iconIMG{
     background-color: transparent;
-    margin-left: 10px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
 }
 
 .iconP{
@@ -33,6 +43,10 @@ body{
     margin: 0 5px;
     justify-content: center;
     color: var(--blueSky);
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 .iconIMG{
     width: 60px;
