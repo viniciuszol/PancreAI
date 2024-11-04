@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+:root{
+    --darkRed: #360606;
+    --lightRed:#FFe6e6;
+    --redLetter:#d61c1c;
+    --blueSky:#d4edf5;
+    --OrangeF:#daab95;
+    --VermelhoClaro:#f88484;
+}
+
+.inicioP{
+    height: 99.5vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudoP{
+    background-image: url(../IMG/docto.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 12vh;
+    height: 87.5vh;
+    text-align: left;
+}
+
+.conteudoP h1, .conteudoP p{
+    color: #d4edf5;
+    width: 450px;
+    margin-left: 20px;
+    margin-top: 10vh;
+    font-family: "Source Code Pro", monospace;
+}
+
+.publicoP{
+    height: 99.5vh;
+}
+
+.publicoP h1{
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+    color: var(--darkRed);
+    font-style: italic;
+}
+
+.dimensionP{
+    display: flex;
+    justify-content: center;
+}
+
+.cardP{
+    width: 90%;
+    margin-top: 50px;
+    height: 50vh;
+    background-color: var(--lightRed);
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0px 0px 20px 10px #360606;
+}
+
+.textP{
+    width: 50%;
+    height: 100%;
+}
+
+.imgP{
+    width: 50%;
+    height: 100%;
+    background-image: url(../IMG/tratamento.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 3px #360606;
+}
