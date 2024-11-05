@@ -10,6 +10,11 @@
     --VermelhoClaro:#f88484;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body{
     padding: 0;
     margin: 0;
