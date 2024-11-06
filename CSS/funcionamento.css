@@ -177,3 +177,100 @@ main#carousel {
   input:nth-of-type(5):checked ~ main#carousel {
     --position: 5;
   }
+
+
+.cg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.imgCG{
+    width: 30vw;
+    height: 30vh;
+  }
+
+.textCG{
+    width: 30vw;
+    text-align: left;
+    font-family: "Source Code Pro", monospace;
+  }
+
+.textCG h5{
+    font-size: 18px;
+    
+  }
+
+.textCG p{
+    font-size: 12px;
+}
+
+.iniciocg h3{
+    font-family: "Source Code Pro", monospace;
+    font-size: 22px;
+  }
+
+.iniciocg{
+    text-align: center;
+    padding:13vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paleta, .CGexplicacao{
+    height: 69.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.CGexplicacao{
+    display: block;
+}
+
+.paletaCG{
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+    font-size: 22px;
+}
+
+.colors{
+    display: flex;
+}
+
+.color1, .color2, .color3, .color4, .color5, .color6{
+    width: 200px;
+    margin: 20px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #d61c1c;
+    border: solid 2px black;
+    box-shadow: 6px 10px #87866a;
+}
+
+.color1{
+    background-color: var(--blueSky);
+}
+
+.color2{
+    background-color: var(--darkRed);
+}
+
+.color4{
+    background-color: var(--lightRed);
+}
+
+.color5{
+    background-color: var(--OrangeF);
+}
+
+.color6{
+    background-color: var(--VermelhoClaro);
+}
+
+.CGexplicacao p{
+    font-family: "Source Code Pro", monospace;
+    margin: 20px 30px;
+    text-align: justify;
+}
