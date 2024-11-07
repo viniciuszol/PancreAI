@@ -165,7 +165,7 @@ body{
 /*download aba*/
 
 .Download{
-    height: 85vh;
+  padding: 30px 0px;
 }
 
 .Download h1{
