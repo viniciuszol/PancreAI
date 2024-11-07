@@ -190,8 +190,8 @@ body{
 }
 
 .IOS{
-    border-left: solid 1px var(--darkRed);
-    border-right: solid 1px var(--darkRed);
+    border-left: solid 2px var(--darkRed);
+    border-right: solid 2px var(--darkRed);
 }
 .content{
     margin:10px;
