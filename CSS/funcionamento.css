@@ -10,6 +10,10 @@
     --VermelhoClaro:#f88484;
 }
 
+body{
+  background: linear-gradient(to top, var(--VermelhoClaro) 20%, var(--lightRed) 20%);
+}
+
 .inicioF{
     height: 99.5vh;
     text-align: center;
@@ -19,7 +23,7 @@
 }
 
 .conteudoF{
-    background-color: var(--lightRed);
+    background-color: var(--OrangeF);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 12vh;
